@@ -27,7 +27,7 @@ A small juice business was tracking everything by hand. Now the owner logs sales
 - A Telegram alert when a flavour or its stickers run low.
 - An 8 pm summary by Telegram and email: bottles sold, revenue, top seller, and which flavours and sizes were sold.
 - A 6 pm nudge if nothing has been logged yet.
-- A Sunday roll-up of revenue, costs, profit, and flavours sold, saved to the sheet.
+- A Sunday roll-up of revenue, costs, profit, and flavours sold, saved to the sheet and sent to the owner by Telegram and email.
 - An error alert, and a weekly backup to Google Drive.
 
 Built with n8n, Google Sheets, Telegram, Gmail, and Google Drive.
