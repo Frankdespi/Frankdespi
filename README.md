@@ -20,7 +20,7 @@ Two connected n8n workflows that turn a customer feedback form into a scored, ro
 
 ## Also built
 
-### [Sales & Inventory Automation](https://github.com/Frankdespi/Frankdespi.github.io/tree/main/projects/sales-inventory-automation)
+### [Sales & Inventory Automation](https://github.com/Frankdespi/sales-inventory-automation)
 
 A small juice business was tracking everything by hand. Now the owner logs sales, batches, and costs in Google Sheets, the spreadsheet does the arithmetic, and n8n does the watching, in six lanes on one canvas.
 
@@ -32,7 +32,7 @@ A small juice business was tracking everything by hand. Now the owner logs sales
 
 Built with n8n, Google Sheets, Telegram, Gmail, and Google Drive.
 
-### [My First AI Agent](https://github.com/Frankdespi/Frankdespi.github.io/tree/main/projects/first-ai-agent)
+### [My First AI Agent](https://github.com/Frankdespi/n8n-first-ai-agent)
 
 An n8n AI agent that takes one Telegram prompt, searches the web, then messages and emails me the answer. The main lesson: an agent will not chain tools on its own, so the system prompt has to say "search first, then email the result."
 
@@ -63,4 +63,4 @@ Built with n8n's AI Agent node, an OpenAI chat model, Simple Memory, SerpApi, Gm
 
 ## A note on data
 
-The capstone project uses sample data. For the sales and inventory automation, the business name and its figures are kept private. Nothing from my employer or its customers appears in any repository.
+The capstone project uses sample data. The sales and inventory automation was built for a real client, and the business name and its figures are kept private. Nothing from my employer or its customers appears in any repository.
