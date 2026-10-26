@@ -38,11 +38,22 @@ An n8n AI agent that takes one Telegram prompt, searches the web, then messages 
 
 Built with n8n's AI Agent node, an OpenAI chat model, Simple Memory, SerpApi, Gmail, and Telegram.
 
+### [Text to OpenAI API](https://github.com/Frankdespi/text-openai-)
+
+An n8n webhook workflow that works like a small API. A caller sends JSON with some text, and the workflow validates it, asks OpenAI for a one-sentence summary and a category, and replies with clean JSON and the right HTTP status code.
+
+- Bad input is rejected before any AI call, with a clear 400 error.
+- The OpenAI call has a 30-second timeout, up to 2 tries, and its own error route.
+- An unreadable AI answer becomes a 502 error instead of a raw failure.
+- The three Code nodes are covered by 12 automated checks.
+
+Built with n8n (Webhook, Code, IF, HTTP Request, and Respond to Webhook nodes), the OpenAI API, and JavaScript.
+
 ## What I work with
 
 | Area | Tools |
 | --- | --- |
-| Automation | n8n (workflows and AI agents), Make.com |
+| Automation | n8n (workflows, webhooks, and AI agents), Make.com |
 | AI | OpenAI API, Claude |
 | Data and messaging | Google Sheets, Gmail, Google Forms, Google Drive, Telegram Bot API, SerpApi |
 | Scripting | JavaScript for n8n Code nodes (written and debugged with Claude), JSON |
