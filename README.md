@@ -38,7 +38,7 @@ An n8n AI agent that takes one Telegram prompt, searches the web, then messages 
 
 Built with n8n's AI Agent node, an OpenAI chat model, Simple Memory, SerpApi, Gmail, and Telegram.
 
-### [Text to OpenAI API](https://github.com/Frankdespi/text-openai-)
+### [Text to OpenAI API](https://github.com/Frankdespi/text-to-openai-api)
 
 An n8n webhook workflow that works like a small API. A caller sends JSON with some text, and the workflow validates it, asks OpenAI for a one-sentence summary and a category, and replies with clean JSON and the right HTTP status code.
 
